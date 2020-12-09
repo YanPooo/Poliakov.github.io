@@ -177,7 +177,7 @@ footer {
   font-size: 1.5625vw;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .card h1 {
     font-size: 4vw;
   }

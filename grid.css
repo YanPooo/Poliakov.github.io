@@ -333,7 +333,7 @@ footer img {
   margin-right: 1.0417vw;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .cardblock {
     flex-direction: column;
     justify-content: center;

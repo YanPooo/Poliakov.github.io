@@ -1,0 +1,193 @@
+body {
+  background-color: #e5e5e5;
+}
+
+a {
+  text-decoration: none;
+}
+
+header a {
+    color: white;
+    -webkit-text-stroke: 0.052vw black;
+}
+
+header {
+  background-color: #3332cb;
+
+}
+
+header > h1 {
+  font-size: 2.15vw;
+  color: white;
+  -webkit-text-stroke: 0.027vw black;
+}
+
+header li {
+  background-color: #9a99ff;
+  font-size: 1.71875vw;
+  border: solid;
+  border-width: 0.15625vw;
+  border-color: white;
+}
+
+.mainblock {
+  border-radius: 1%;
+  background-color: white;
+}
+
+.col1 {
+  background-color: darkblue;
+}
+
+.col2 {
+  background-color: green;
+}
+
+.tickets {
+  background-color: #9a99ff;
+}
+
+.tickets h1 {
+  color: white;
+  font-size: 1.302vw;
+}
+
+.time {
+  background-color: #010066;
+}
+
+.time h1 {
+  color: white;
+  font-size: 1.302vw;
+}
+
+.hotels {
+  background-color: #9a99ff;
+}
+
+.hotels h1 {
+  color: #010066;
+  font-size: 1.302vw;
+}
+
+.hotels ul {
+  list-style: none;
+  color: white;
+  font-size: 1.1458vw;
+}
+
+.price {
+  background-color: #010066;
+}
+
+.price h1 {
+  color: #9a99ff;
+  font-size: 1.04vw;
+}
+
+.price h2 {
+  font-size: 2.604vw;
+  color: white;
+}
+
+.rate {
+  background-color: #000032;
+}
+
+.square_rate {
+  border: 0.3vw solid;
+  border-color: white;
+}
+
+.square_rate h1 {
+  color: white;
+  font-size: 1.04vw;
+}
+
+.square_rate h2 {
+  color: white;
+  font-size: 1.5625vw;
+}
+
+.col3 {
+  white-space: pre-wrap;
+  background-color: #000032;
+}
+
+.col3 h1 {
+  font-size: 1.5vw;
+  color: white;
+}
+
+.col3 p {
+  margin-bottom: 0.8vw;
+  font-size: 0.8vw;
+  color: white;
+}
+
+.card {
+  background-color: white;
+}
+
+.card h1 {
+  font-size: 1.302vw;
+}
+
+.card .go {
+  border-radius: 3%;
+  background-color: blue;
+}
+
+.go a {
+  font-size: 1.302vw;
+  color: white;
+}
+
+footer {
+  background-color: #3332cb;
+}
+
+.left h1{
+  width: 60%;
+  font-size: 1.865vw;
+  color: white;
+}
+
+.personal {
+  background-color: #9a99ff;
+}
+
+.left a {
+  color: white;
+  font-size: 1.5625vw;
+  -webkit-text-stroke: 0.051vw black;
+}
+
+.right ul {
+  list-style: none;
+}
+
+.right h1 {
+  color: white;
+  font-size: 2.083vw;
+}
+
+.right h2 {
+  color: white;
+  font-size: 1.5625vw;
+}
+
+@media screen and (max-width: 600px) {
+  .card h1 {
+    font-size: 4vw;
+  }
+
+  .card p {
+    font-size: 3vw;
+  }
+
+  .go a {
+    font-size: 4vw;
+    color: white;
+  }
+}

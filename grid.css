@@ -45,9 +45,8 @@ header li:last-child {
 header > img:last-child {
   width: 3.125vw;
   height: 2.604vw;
-  float: right;
-  position: absolute;
-  margin-left: 95%;
+  position: relative;
+  margin-left: 4.5vw;
   margin-top: 1.3vw;
 }
 
@@ -333,7 +332,7 @@ footer img {
   margin-right: 1.0417vw;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px), screen and (orientation: portrait){
   .cardblock {
     flex-direction: column;
     justify-content: center;
